@@ -63,19 +63,12 @@ void init()
     for (int i=0;i<N;i++)
     {
         visit[i]=false;
-        if(i==start)
-        {
-            dis[i]=0;
-            max_team[i]=teams[i];
-            num[i]=1;//the number of to start is only one
-        }
-        else
-        {
-            dis[i]=map[start][i];
-            num[i]=0;
-            max_team[i]=0;
-        }
+        dis[i]=map[start][i];
+        max_team[i]=0;
+        num[i]=0;
     }
+    max_team[start]=teams[start];
+    num[start]=1;
     return;
 }
 
