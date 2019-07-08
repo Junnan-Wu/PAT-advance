@@ -11,7 +11,6 @@ int K;
 void init();
 void process();
 
-
 int main()
 {
     init();
