@@ -9,7 +9,7 @@
 
 int main()
 {
-    double poly[3][MAXK]={0};
+    double poly[3][MAXK]={0};//pay attention to initialize the array
     int K[2];int *p[2];
     for(int i=0;i<2;i++)
     {
