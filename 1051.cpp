@@ -15,6 +15,7 @@ int main()
     for(int test=0;test<K;test++)
     {
         queue<int> q;
+        for(int i=0;i<N;i++)
         {
             int temp;
             scanf("%d",&temp);
