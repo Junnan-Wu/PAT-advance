@@ -96,7 +96,7 @@ void process()
 		}
 		build_tree();
 		postorder.clear();
-		find_postorder(Tree[0]);//计算该数的后序遍历结果
+		find_postorder(Tree[0]);//计算该树的后序遍历结果
 		if (judge_max(Tree[0]))
 			printf("Max Heap\n");
 		else if (judge_min(Tree[0]))
